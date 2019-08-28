@@ -1,6 +1,6 @@
 # Hello World
 
-Here I am tryong GitHub.
+Here I am trying GitHub.
 
 # Welcome to GitHub
 
