@@ -12,13 +12,16 @@ img.mr-circle.mr-avatar {width: 60px;height: 60px;border: white 6px solid;border
   width: 100%;
   padding-top: 100%; /* 1:1 Aspect Ratio */
   overflow: hidden;
+  margin-bottom: 30px;
 }
 
 .mr-imgbox {
-  position:  absolute;
+  position: absolute;
   top: 0;
   left: -50%;
   bottom: 0;
   right: 0;
-  text-align: center;
+  overflow: hidden;
+  height: 100%;
+  width: auto;
 }
