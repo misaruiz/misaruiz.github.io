@@ -22,7 +22,7 @@ $(".mr-prev").click(function(){
 $(document).scroll(function() {
     var y = $(this).scrollTop();
     if (y > 400) {
-      $('.mr-prev).fadeIn();
+      $('.mr-prev').fadeIn();
     } else {
       $('.mr-prev').fadeOut();
     }
