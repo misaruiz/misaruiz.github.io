@@ -43,7 +43,7 @@ $(document).scroll(function() {
 
   $(function() {
     $('.mr-imgcontainer').on('click', function() {
-        $('.imagepreview').attr('src', $(this).find('img').attr('src'));
-        $('#imagemodal').modal('show');   
+        $('.mr-imagepreview').attr('src', $(this).find('img').attr('src'));
+        $('#mr-imagemodal').modal('show');   
     });		
 });
