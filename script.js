@@ -31,14 +31,11 @@ $(document).scroll(function() {
 
 
   $(".mr-next").click(function(){
-    var imgBoxHeight = $(".mr-section").height();
     var y = $(window).scrollTop();
-    $("html, body").animate({ scrollTop: y + $(window).height() }, imgBoxHeight);
+    $("html, body").animate({ scrollTop: y + $(".mr-section").height() }, 600);
   });
 
   $(".mr-prev").click(function(){
-    var imgBoxHeight = $(".mr-section").height();
-    var imgBoxHeight = 0 - imgBoxHeight;
     var y = $(window).scrollTop();
-    $("html, body").animate({ scrollTop: y + $(window).height() }, imgBoxHeightNeg);
+    $("html, body").animate({ scrollTop: y - $(".mr-section").height() }, 600);
   });
