@@ -20,6 +20,7 @@ svg.mr-circle:hover {fill: white;fill-opacity: .25;}
   padding-top: 100%; /* 1:1 Aspect Ratio */
   overflow: hidden;
   margin-bottom: 30px;
+  display: block;
 }
 
 .mr-imgbox {
