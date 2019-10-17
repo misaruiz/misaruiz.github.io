@@ -1,6 +1,6 @@
 
 .mr-nav {padding: 60px;height: 100vh;}
 svg.mr-logo {fill:white!important;width: 100px;}
-svg.mr-rect {fill:transparent;border: white 6px solid;width: 60px;height:60px;}
-svg.mr-triangle {fill:transparent;border: white 6px solid;width: 60px;height:auto;}
-img.mr-circle.mr-avatar {width: 60px;height: 60px;border: white 6px solid;border-radius: 30px;padding: 30px 0;}
+svg.mr-rect {fill:transparent;stroke: white; stroke-width: 6;width: 60px;height:60px;}
+svg.mr-triangle {fill:transparent;stroke: white;stroke-width: 6;width: 60px;height:auto;}
+img.mr-circle.mr-avatar {width: 60px;height: 60px;border: white 6px solid;border-radius: 30px;margin: 30px 0;}
