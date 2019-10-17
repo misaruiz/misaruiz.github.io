@@ -10,6 +10,9 @@ svg.mr-triangle.mr-prev {transform: rotate(0deg);margin-bottom: 30px;}
 svg.mr-circle {width:60px;max-width: 100%;min-width: 30px;height: auto;stroke-width: 6;stroke: white;overflow: visible;fill: transparent;}
 svg.mr-circle:hover {fill: white;fill-opacity: .25;}
 .mr-avatar {background: url(/images/misaruiz-avatar.jpg);background-size: cover;width: fit-content;border-radius: 30px;margin: 30px auto 30px;}
+#mr-imagemodal .modal-body {padding: 0;}
+#mr-imagemodal .modal-content {border-radius: 20px;}
+#mir-imagemodal .mr-imagepreview {border-radius: 10px;width: 100%;}
 
 
 
