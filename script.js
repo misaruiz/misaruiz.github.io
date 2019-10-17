@@ -21,7 +21,7 @@ $(".mr-prev").click(function(){
 
 $(document).scroll(function() {
     var y = $(this).scrollTop();
-    if (y > 400) {
+    if (y > 200) {
       $('.mr-prev').fadeIn();
     } else {
       $('.mr-prev').fadeOut();
