@@ -12,7 +12,7 @@ svg.mr-circle:hover {fill: white;fill-opacity: .25;}
 .mr-avatar {background: url(/images/misaruiz-avatar.jpg);background-size: cover;width: fit-content;border-radius: 30px;margin: 30px auto 30px;}
 #mr-imagemodal .modal-body {padding: 0;}
 #mr-imagemodal .modal-content {border-radius: 20px;}
-#mir-imagemodal .mr-imagepreview {border-radius: 10px;width: 100%;}
+#mr-imagemodal .mr-imagepreview {border-radius: 10px;width: 100%;}
 
 
 
