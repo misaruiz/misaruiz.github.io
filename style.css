@@ -4,7 +4,7 @@ svg.mr-logo {fill:white!important;max-width: 250px;min-width: 70px;}
 svg.mr-rect {fill:transparent;stroke: white; stroke-width: 6;max-width: 50px;max-height:50px;min-width: 30px;min-height: 30px;overflow: visible;}
 svg.mr-rect:hover {fill: white;}
 svg.mr-rect rect {width: 50px;height: 50px;}
-svg.mr-triangle {fill:transparent;stroke: white;stroke-width: 6;width: 53px;max-width: 100%;min-width: 30px;height:auto;overflow: visible;}
+svg.mr-triangle {fill:transparent;stroke: white;stroke-width: 6;width: 53px;max-width: 100%;min-width: 30px;height:auto;overflow: visible;transform: rotate(180deg);}
 svg.mr-triangle:hover {fill: white;}
 svg.mr-circle {width:60px;max-width: 100%;min-width: 30px;height: auto;stroke-width: 6;stroke: white;overflow: visible;fill: transparent;}
 svg.mr-circle:hover {fill: white;fill-opacity: .25;}
@@ -35,7 +35,7 @@ svg.mr-circle:hover {fill: white;fill-opacity: .25;}
 
 /* Mobile items */
 @media (max-width: 575.98px) {
-  .mr-nav {padding: 0 0px 60px 30px;}
-  .mr-maincontent {padding:15px 15px 30px 0;}
+  .mr-nav {padding: 0 0 60px 15px;}
+  .mr-maincontent {padding:15px 0px 30px 0;}
 
 }
