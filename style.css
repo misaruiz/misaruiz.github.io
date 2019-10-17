@@ -6,7 +6,7 @@ svg.mr-rect:hover {fill: white;}
 svg.mr-rect rect {width: 50px;height: 50px;}
 svg.mr-triangle {fill:transparent;stroke: white;stroke-width: 6;width: 53px;max-width: 100%;min-width: 30px;height:auto;overflow: visible;transform: rotate(180deg);}
 svg.mr-triangle:hover {fill: white;}
-svg.mr-triangle.mr-prev {transform: rotate(0deg);}
+svg.mr-triangle.mr-prev {transform: rotate(0deg);margin-bottom: 30px;}
 svg.mr-circle {width:60px;max-width: 100%;min-width: 30px;height: auto;stroke-width: 6;stroke: white;overflow: visible;fill: transparent;}
 svg.mr-circle:hover {fill: white;fill-opacity: .25;}
 .mr-avatar {background: url(/images/misaruiz-avatar.jpg);background-size: cover;width: fit-content;border-radius: 30px;margin: 30px auto 30px;}
@@ -40,5 +40,6 @@ svg.mr-circle:hover {fill: white;fill-opacity: .25;}
 @media (max-width: 575.98px) {
   .mr-nav {padding: 0 0 160px 15px;}
   .mr-maincontent {padding:15px 0px 30px 0;}
+  .mr-shapes {margin: 0px 25px;}
 
 }
