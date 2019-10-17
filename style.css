@@ -7,24 +7,18 @@ svg.mr-triangle {fill:transparent;stroke: white;stroke-width: 6;width: 53px;heig
 img.mr-circle.mr-avatar {width: 60px;height: 60px;border: white 6px solid;border-radius: 30px;margin: 30px 0;}
 
 
-
-
-.row.row-grid [class*="col-"] + [class*="col-"] {
-  margin-top: 15px;
+.mr-imgcontainer {
+  position: relative;
+  width: 100%;
+  padding-top: 100%; /* 1:1 Aspect Ratio */
+  overflow: hidden;
 }
 
-@media (min-width: 1200px) {
-  .row.row-grid [class*="col-lg-"] + [class*="col-lg-"] {
-      margin-top: 0;
-  }
-}
-@media (min-width: 992px) {
-  .row.row-grid [class*="col-md-"] + [class*="col-md-"] {
-      margin-top: 0;
-  }
-}
-@media (min-width: 768px) {
-  .row.row-grid [class*="col-sm-"] + [class*="col-sm-"] {
-      margin-top: 0;
-  }
+.mr-imgbox {
+  position:  absolute;
+  top: 0;
+  left: -50%;
+  bottom: 0;
+  right: 0;
+  text-align: center;
 }
