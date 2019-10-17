@@ -7,15 +7,15 @@ var count = 0,
     };
 
 
-$(".mr-next").click(function(){
+/* $(".mr-next").click(function(){
     count= count + 2;  
   scrollTo(count);
 });
 
 $(".mr-prev").click(function(){
-  count--;  
+  count= count - 2;  
   scrollTo(count);
-});
+}); */
 
 
 
@@ -27,3 +27,14 @@ $(document).scroll(function() {
       $('.mr-prev').fadeOut();
     }
   });
+
+
+var imgBoxHeight = document.getElementByClass('mr-section').clientHeight;
+var imgBoxHeightNeg = 0 - imgBoxHeight;
+  function scrollImgUp() {
+    window.scrollBy(0, imgBoxHeight);
+  }
+
+  function scrollImgDown() {
+    window.scrollBy(0, imgBoxHeightNeg);
+  }
