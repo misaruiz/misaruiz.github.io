@@ -1,20 +1,12 @@
 
-.mr-nav {padding: 0 60px;height: 100vh;position: fixed;z-index: 100;}
+.mr-nav {padding: 0 60px 60px;height: 100vh;position: fixed;z-index: 100;}
 svg.mr-logo {fill:white!important;max-width: 250px;min-width: 70px;}
 svg.mr-rect {fill:transparent;stroke: white; stroke-width: 6;max-width: 50px;max-height:50px;min-width: 30px;min-height: 30px;overflow: visible;}
 svg.mr-rect rect {width: 50px;height: 50px;}
 svg.mr-triangle {fill:transparent;stroke: white;stroke-width: 6;width: 53px;height:auto;overflow: visible;margin-bottom: 63px;}
 img.mr-circle.mr-avatar {width: 60px;height: 60px;border: white 6px solid;border-radius: 30px;margin: 30px 0;}
 
-/* Mobile items */
-@media (max-width: 575.98px) {
-  .mr-nav {padding: 0 15px;}
-  .mr-maincontent {padding:30px 30px 30px 0;}
-  svg.mr-rect {fill:transparent;stroke: white; stroke-width: 4;width: 30px;height:30px;overflow: visible;}
-  svg.mr-rect rect {width: 30px;height: 30px;}
-  svg.mr-triangle {fill:transparent;stroke: white;stroke-width: 4;width: 25px;height:auto;overflow: visible;margin-bottom: 40px;}
-  img.mr-circle.mr-avatar {width: 30px;height: 30px;border: white 4px solid;border-radius: 15px;margin: 15px 0;}
-}
+
 
 .mr-imgcontainer {
   position: relative;
@@ -37,3 +29,13 @@ img.mr-circle.mr-avatar {width: 60px;height: 60px;border: white 6px solid;border
 }
 
 .mr-maincontent {padding:60px 60px 60px 0;}
+
+/* Mobile items */
+@media (max-width: 575.98px) {
+  .mr-nav {padding: 0 15px 15px;}
+  .mr-maincontent {padding:30px 30px 30px 0;}
+  svg.mr-rect {fill:transparent;stroke: white; stroke-width: 4;width: 30px;height:30px;overflow: visible;}
+  svg.mr-rect rect {width: 30px;height: 30px;}
+  svg.mr-triangle {fill:transparent;stroke: white;stroke-width: 4;width: 25px;height:auto;overflow: visible;margin-bottom: 40px;}
+  img.mr-circle.mr-avatar {width: 30px;height: 30px;border: white 4px solid;border-radius: 15px;margin: 15px 0;}
+}
