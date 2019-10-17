@@ -1,7 +1,30 @@
 
-.mr-nav {padding: 60px;height: 100vh;}
+.mr-nav {padding: 60px;height: 100vh;position: fixed;z-index: 100;}
 svg.mr-logo {fill:white!important;width: 100px;}
 svg.mr-rect {fill:transparent;stroke: white; stroke-width: 6;width: 50px;height:50px;overflow: visible;}
 svg.mr-rect rect {width: 50px;height: 50px;}
 svg.mr-triangle {fill:transparent;stroke: white;stroke-width: 6;width: 53px;height:auto;overflow: visible;}
 img.mr-circle.mr-avatar {width: 60px;height: 60px;border: white 6px solid;border-radius: 30px;margin: 30px 0;}
+
+
+
+
+.row.row-grid [class*="col-"] + [class*="col-"] {
+  margin-top: 15px;
+}
+
+@media (min-width: 1200px) {
+  .row.row-grid [class*="col-lg-"] + [class*="col-lg-"] {
+      margin-top: 0;
+  }
+}
+@media (min-width: 992px) {
+  .row.row-grid [class*="col-md-"] + [class*="col-md-"] {
+      margin-top: 0;
+  }
+}
+@media (min-width: 768px) {
+  .row.row-grid [class*="col-sm-"] + [class*="col-sm-"] {
+      margin-top: 0;
+  }
+}
