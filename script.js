@@ -29,7 +29,7 @@ $(document).scroll(function() {
   });
 
 
-var imgBoxHeight = document.getElementByClassName('mr-section').clientHeight;
+var imgBoxHeight = document.getElementsByClassName('mr-section').clientHeight;
 var imgBoxHeightNeg = 0 - imgBoxHeight;
   function scrollImgUp() {
     window.scrollBy(0, imgBoxHeight);
