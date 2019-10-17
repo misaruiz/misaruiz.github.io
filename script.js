@@ -39,3 +39,11 @@ $(document).scroll(function() {
     var y = $(window).scrollTop();
     $("html, body").animate({ scrollTop: y - $(".mr-section").height() }, 600);
   });
+
+
+  $(function() {
+    $('.mr-imgcontainer').on('click', function() {
+        $('.mr-imgbox').attr('src', $(this).find('img').attr('src'));
+        $('#imagemodal').modal('show');   
+    });		
+});
