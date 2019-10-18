@@ -42,7 +42,7 @@ $(".mr-prev").click(function(){
   $(document).scroll(function() {
     var y = $(this).scrollTop();
     if (y > 200) {
-        function () {
+        
             var div = $(".mr-prev:not(:visible)");
             
             var height = div.css({
@@ -64,9 +64,7 @@ $(".mr-prev").click(function(){
                     marginTop: ""
                 });
             });
-        }
     } else {
-        function () {
             var div = $(".mr-prev");
             
             var height = div.height();
@@ -87,7 +85,6 @@ $(".mr-prev").click(function(){
                 });
             });
         }
-    }
   });
 
 
