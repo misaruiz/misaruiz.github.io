@@ -2,13 +2,13 @@ body {background-color: #111314;}
 .mr-nav {padding: 0 60px 100px;height: 100vh;position: fixed;z-index: 100;}
 svg.mr-logo {fill:white!important;max-width: 250px;min-width: 45px;}
 svg.mr-rect {fill:transparent;max-width: 50px;max-height:50px;min-width: 20px;min-height: 20px;overflow: visible;}
-svg.mr-rect:hover {fill: white;}
+svg.mr-rect:hover {fill: #323537;}
 svg.mr-rect rect {width: 50px;height: 50px;}
 svg.mr-triangle {fill:transparent;width: 53px;max-width: 100%;min-width: 20px;height:auto;overflow: visible;transform: rotate(180deg);}
-svg.mr-triangle:hover {fill: white;}
+svg.mr-triangle:hover {fill: #323537;}
 svg.mr-triangle.mr-prev {transform: rotate(0deg);margin-bottom: 30px;}
 svg.mr-circle {width:60px;max-width: 100%;min-width: 20px;height: auto;overflow: visible;fill: transparent;}
-svg.mr-circle:hover {fill: white;fill-opacity: .25;}
+svg.mr-circle:hover {fill: #323537;fill-opacity: .35;}
 .mr-avatar {background: url(/images/misaruiz-avatar.jpg);background-size: cover;width: fit-content;border-radius: 30px;margin: 30px auto 30px;}
 #mr-imagemodal .modal-body {padding: 0;}
 #mr-imagemodal .modal-content {border-radius: 20px;}
