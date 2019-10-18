@@ -29,14 +29,73 @@ $(".mr-prev").click(function(){
   });
   */
 
- $(document).scroll(function() {
+/* $(document).scroll(function() {
     var y = $(this).scrollTop();
     if (y > 200) {
-      $('.mr-prev').slideUp();
-    } else {
       $('.mr-prev').slideDown();
+    } else {
+      $('.mr-prev').slideUp();
     }
   });
+*/
+
+  $(document).scroll(function() {
+    var y = $(this).scrollTop();
+    if (y > 200) {
+        function () {
+            var div = $(".mr-prev:not(:visible)");
+            
+            var height = div.css({
+                display: "block"
+            }).height();
+            
+            div.css({
+                overflow: "hidden",
+                marginTop: height,
+                height: 0
+            }).animate({
+                marginTop: 0,
+                height: height
+            }, 500, function () {
+                $(this).css({
+                    display: "",
+                    overflow: "",
+                    height: "",
+                    marginTop: ""
+                });
+            });
+        }
+    } else {
+        function () {
+            var div = $(".mr-prev");
+            
+            var height = div.height();
+            
+            div.css({
+                overflow: "hidden",
+                marginTop: 0,
+                height: height
+            }).animate({
+                marginTop: height,
+                height: 0
+            }, 500, function () {
+                $(this).css({
+                    display: "none",
+                    overflow: "",
+                    height: "",
+                    marginTop: ""
+                });
+            });
+        }
+    }
+  });
+
+
+
+
+
+
+
 
 
 
