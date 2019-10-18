@@ -65,25 +65,7 @@ $(".mr-prev").click(function(){
                 });
             });
     } else {
-            var div = $(".mr-prev");
             
-            var height = div.height();
-            
-            div.css({
-                overflow: "hidden",
-                marginTop: 0,
-                height: height
-            }).animate({
-                marginTop: height,
-                height: 0
-            }, 500, function () {
-                $(this).css({
-                    display: "none",
-                    overflow: "",
-                    height: "",
-                    marginTop: ""
-                });
-            });
         }
   });
 
