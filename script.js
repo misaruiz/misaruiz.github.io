@@ -19,7 +19,7 @@ $(".mr-prev").click(function(){
 
 
 
-$(document).scroll(function() {
+/* $(document).scroll(function() {
     var y = $(this).scrollTop();
     if (y > 200) {
       $('.mr-prev').fadeIn();
@@ -27,6 +27,18 @@ $(document).scroll(function() {
       $('.mr-prev').fadeOut();
     }
   });
+  */
+
+ $(document).scroll(function() {
+    var y = $(this).scrollTop();
+    if (y > 200) {
+      $('.mr-prev').slideUp();
+    } else {
+      $('.mr-prev').slideDown();
+    }
+  });
+
+
 
 
 
